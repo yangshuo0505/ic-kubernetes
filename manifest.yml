@@ -89,7 +89,7 @@ spec:
               name: v2ray-config
               key: config.json
       - name: tunnel
-        image: cloudflare/cloudflared
+        image: cloudflare/cloudflared:2021.9.0-amd64
         command: ["cloudflared", "tunnel", "--no-autoupdate=true"]
 ---
 apiVersion: v1
